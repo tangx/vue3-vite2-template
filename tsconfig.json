@@ -16,6 +16,9 @@
         "types": [
             "node"
         ],
+        // 增加 baseUrl， 自动 ts 中别名自动补全路径
+        // https://stackoverflow.com/questions/63297518/typescript-alias-import-with-auto-complete
+        "baseUrl": "./",
         "paths": {
             "@/*": [
                 "./src/*"
